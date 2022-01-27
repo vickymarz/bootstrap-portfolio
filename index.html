@@ -33,7 +33,7 @@
 	<body class='container-fluid m-0 p-0 data-bs-spy="scroll data-bs-target=".navbar" ' style='background:#e5e5e5'>
 		<section class="bg-white" style="min-height:718px; border-bottom-left-radius: 150px;">
 			<header class="container pt-2" >
-       <nav class="navbar navbar-expand-sm fixed-top">
+       <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Victor</a>
 					<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -273,7 +273,7 @@ Stories project image"
 				</div>
 			</div>
 		</section>
-		<section class="container-fluid pt-5" style="min-height:779px; border-top-right-radius: 150px; background-color: #6070ff;margin-top: -200px;"id="contact">
+		<section class="container-fluid pt-5" style="min-height:779px; border-top-right-radius: 150px; margin-top: -200px; background: url('./assets/images/contact-form-background-shapes.png')  0 79px no-repeat; background-size: 100% 632.79px; min-height: 718.7px; min-width: 375px;  padding: 120px 20px; background-color: #6070ff;"id="contact" >
 			<div class="container d-flex flex-column w-50 mx-auto justify-content-center">
 
 				<h2 class="pt-5 text-white h1 mb-4 text-center">Contact me</h2>
@@ -281,16 +281,16 @@ Stories project image"
 					>If you have an application you are interested in developing, a feature that you need built
 					or a project that needs coding. I’d love to help with it
 				</p>
-				<form action="https://formspree.io/f/mdobaojq" method="POST" class="d-flex flex-column w-75 mx-auto">
+				<form action="https://formspree.io/f/mdobaojq" method="POST" class="d-flex flex-column w-75 mx-auto justify-content-center mt-5">
 					<ul>
 						<li class="list-unstyled">
-							<input  class="w-100 my-3 rounded-3 p-3 border border-primary "  type="text" name="name" placeholder="Enter Your Name" maxlength="30" required />
+							<input  class="w-100 my-2 rounded-3 p-3 border border-primary form-control"  type="text" name="name" placeholder="Enter Your Name" maxlength="30" required />
 						</li>
 						<li class="list-unstyled">
-							<input  class="w-100 my-3 rounded-3 p-3 border border-primary " type="email" name="email" placeholder="Enter a valid email" required />
+							<input  class="w-100 my-2 rounded-3 p-3 border border-primary form-control" type="email" name="email" placeholder="Enter a valid email" required />
 						</li>
 						<li class="list-unstyled">
-							<textarea  class="w-100 my-3 rounded-3 p-3 border border-primary "
+							<textarea  class="w-100 my-2 rounded-3 p-3 border border-primary "
 								name="message"
 								cols="30"
 								rows="10"
@@ -300,9 +300,9 @@ Stories project image"
 							></textarea>
 						</li>
 					</ul>
-					<button type="submit" id="submit-btn">Get In Touch</button>
+					<button type="submit" id="submit-btn" class='btn bg-white border border-primary text-primary py-2 px-3 w-50  rounded-4 mb-5 mx-auto d-block'>Get In Touch</button>
 				</form>
-			</div>
+			</div> 
 		
 		</section>
     <!-- Latest compiled JavaScript -->
