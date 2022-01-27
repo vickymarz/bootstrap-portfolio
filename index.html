@@ -274,35 +274,36 @@ Stories project image"
 			</div>
 		</section>
 		<section class="container-fluid pt-5" style="min-height:779px; border-top-right-radius: 150px; background-color: #6070ff;margin-top: -200px;"id="contact">
-			<div class="container d-flex justify-content-center">
+			<div class="container d-flex flex-column w-50 mx-auto justify-content-center">
 
+				<h2 class="pt-5 text-white h1 mb-4 text-center">Contact me</h2>
+				<p class="text-white h5 text-center w-75 mx-auto"
+					>If you have an application you are interested in developing, a feature that you need built
+					or a project that needs coding. I’d love to help with it
+				</p>
+				<form action="https://formspree.io/f/mdobaojq" method="POST" class="d-flex flex-column w-75 mx-auto">
+					<ul>
+						<li class="list-unstyled">
+							<input  class="w-100 my-3 rounded-3 p-3 border border-primary "  type="text" name="name" placeholder="Enter Your Name" maxlength="30" required />
+						</li>
+						<li class="list-unstyled">
+							<input  class="w-100 my-3 rounded-3 p-3 border border-primary " type="email" name="email" placeholder="Enter a valid email" required />
+						</li>
+						<li class="list-unstyled">
+							<textarea  class="w-100 my-3 rounded-3 p-3 border border-primary "
+								name="message"
+								cols="30"
+								rows="10"
+								maxlength="500"
+								placeholder="Write your message here"
+								required
+							></textarea>
+						</li>
+					</ul>
+					<button type="submit" id="submit-btn">Get In Touch</button>
+				</form>
 			</div>
-			<h2 class="pt-5">Contact me</h2>
-			<p
-				>If you have an application you are interested in developing, a feature that you need built
-				or a project that needs coding. I’d love to help with it
-			</p>
-			<form action="https://formspree.io/f/mdobaojq" method="POST">
-				<ul>
-					<li>
-						<input type="text" name="name" placeholder="Enter Your Name" maxlength="30" required />
-					</li>
-					<li>
-						<input type="email" name="email" placeholder="Enter a valid email" required />
-					</li>
-					<li>
-						<textarea
-							name="message"
-							cols="30"
-							rows="10"
-							maxlength="500"
-							placeholder="Write your message here"
-							required
-						></textarea>
-					</li>
-				</ul>
-				<button type="submit" id="submit-btn">Get In Touch</button>
-			</form>
+		
 		</section>
     <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
